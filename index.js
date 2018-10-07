@@ -35,3 +35,9 @@ function removeLastDriver(){
   const copysOfDrivers = []
   return copysOfDrivers
 }
+
+//removeFirstDriver()
+function removeFirstDriver(){
+  const copysOfDrivers = drivers.splice();
+  return copysOfDrivers
+}
