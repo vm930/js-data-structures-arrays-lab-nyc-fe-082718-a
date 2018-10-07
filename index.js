@@ -38,6 +38,6 @@ function removeLastDriver(){
 
 //removeFirstDriver()
 function removeFirstDriver(){
-  const copysOfDrivers = (drivers.slice()).push();
+  const copysOfDrivers = (...drivers).push();
   return copysOfDrivers
 }
